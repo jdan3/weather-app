@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+
+    <title>Vrijeme App</title>
+</head>
+
+<body>
+    <div class="weather-app-container">
+        <!-- Search location -->
+        <div class="traziLokaciju">
+            <input type="text" id="input-box" class="input-box" placeholder="Unesite ime grada..." autocomplete="off">
+        </div>
+        <!-- weather info display -->
+        <div class="vrijeme-body">
+            <div class="location-details">
+                <div class="city" id="city"></div>
+                <div class="datum" id="datum"></div>
+            </div>
+            <!-- weather status -->
+            <div class="vrijeme-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max weather-info" id="min-max">&deg;&deg;&deg;</div>
+                <div class="weather weather-info" id="weather"></div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app2.js"></script>
+</body>
+
+</html>

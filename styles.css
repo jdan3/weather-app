@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out 900ms;
+}
+
+body {
+
+    background-image: url('images/vrijeme01.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-size: 100% 100%;
+
+    text-align: center;
+}
+
+.weather-app-container {
+    width: 80vh;
+    margin: 100px auto 20px;
+    background-color: rgba(52, 56, 131, 0.6);
+    padding: 50px;
+    text-align: center;
+    max-height: 90vh;
+    max-height: fit-content;
+
+
+
+
+}
+
+.weather-app-container>* {
+    margin-bottom: 20px;
+
+
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+
+.vrijeme-body {
+    display: none;
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.vrijeme-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.weather-info {
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    .weather-app-container {
+        width: 90%;
+        /* Adjust width to fit smaller screens */
+        margin: 50px auto;
+        /* Adjust margins for better centering */
+    }
+}
